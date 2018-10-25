@@ -1,0 +1,32 @@
+{
+    "name": "Nueva",
+    "version": "0.1",
+    "description": "Nueva enhances your new tab with background images(from Unsplash) and quotes(from Twitter)",
+    "permissions": [],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "chrome_url_overrides": {
+        "newtab": "nuevanewtab.html"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "16": "images/nueva_icon_16x16.png",
+            "32": "images/nueva_icon_32x32.png",
+            "48": "images/nueva_icon_48x48.png",
+            "128": "images/nueva_icon_128x128.png"
+        }
+    },
+    "options_page": "options.html",
+    "icons": {
+        "16": "images/nueva_icon_16x16.png",
+        "32": "images/nueva_icon_32x32.png",
+        "48": "images/nueva_icon_48x48.png",
+        "128": "images/nueva_icon_128x128.png"
+    },
+    "manifest_version": 2
+}
